@@ -36,8 +36,13 @@ h1 {
 .logo {
 	float:left;
 	font-family: $logo-font;
-	color: #fff;
 	font-size: 20px;
+	a {
+		color: #fff;
+		&:hover {
+			text-decoration: none;
+		}
+	}
 }
 nav {
 	float: right;
@@ -224,4 +229,13 @@ nav {
 		color:#C05555;
 		cursor: pointer;
 	}
+}
+
+
+#humbutton {
+	font-size: 30px;
+	color: #fff;
+	cursor: pointer;
+	display: none;
+	float: right;
 }

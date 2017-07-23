@@ -33,8 +33,15 @@ h1 {
 .logo {
   float: left;
   font-family: "Lobster", cursive;
-  color: #fff;
   font-size: 20px;
+}
+
+.logo a {
+  color: #fff;
+}
+
+.logo a:hover {
+  text-decoration: none;
 }
 
 nav {
@@ -228,4 +235,12 @@ nav {
 #scrollTopBtn:hover {
   color: #C05555;
   cursor: pointer;
+}
+
+#humbutton {
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  display: none;
+  float: right;
 }
