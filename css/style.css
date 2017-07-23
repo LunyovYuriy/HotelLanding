@@ -79,28 +79,16 @@ nav {
   -webkit-background-size: cover;
           background-size: cover;
   height: 100vh;
-  min-height: 500px;
-}
-
-.section-table {
-  display: table;
-  height: 100%;
-  width: 100%;
-}
-
-.section-row {
-  display: table-row;
-}
-
-.section-cell {
-  display: table-cell;
+  line-height: 100vh;
   text-align: center;
-  vertical-align: middle;
 }
 
-.section-center {
-  max-width: 800px;
+.slogan {
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: normal;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .slogan h1 {

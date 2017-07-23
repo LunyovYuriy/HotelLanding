@@ -76,29 +76,16 @@ nav {
 	background: url(../img/main.jpg) center no-repeat;
 	background-size: cover;
 	height: 100vh;
-	min-height: 500px;
-}
-.section-table {
-  display: table;
-  height: 100%;
-  width: 100%;
+	line-height: 100vh;
+	text-align: center;
 }
 
-.section-row {
-  display: table-row;
-}
-
-.section-cell {
-  display: table-cell;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.section-center {
-  max-width: 800px;
-  display: inline-block;
-}
 .slogan {
+	white-space: nowrap;
+	overflow:hidden;
+	line-height: normal;
+	display: inline-block;
+    vertical-align: middle;
 	h1 {
 		font-family: $logo-font;
 		font-size: 80px;
