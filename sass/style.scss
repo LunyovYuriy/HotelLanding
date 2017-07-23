@@ -76,16 +76,16 @@ nav {
 	background: url(../img/main.jpg) center no-repeat;
 	background-size: cover;
 	height: 100vh;
-	line-height: 100vh;
-	text-align: center;
+	position: relative;
+	
 }
 
 .slogan {
-	white-space: nowrap;
-	overflow:hidden;
-	line-height: normal;
-	display: inline-block;
-    vertical-align: middle;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
 	h1 {
 		font-family: $logo-font;
 		font-size: 80px;
