@@ -52,6 +52,17 @@
 	.slogan h1 {
 		font-size: 40px;
 	}
+
+
+	#about, #services, #gallery, #contacts {
+		margin-top: 20px;
+	}
+	#about h1, #gallery h1 {
+		margin-bottom: 15px;
+	}
+	#gallery img {
+		margin-bottom: 10px;
+	}
 }
 
 /* Custom, iPhone Retina */
