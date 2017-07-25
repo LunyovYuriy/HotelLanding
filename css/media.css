@@ -25,6 +25,7 @@
 	}
 	nav {
 		float: none;
+		position: relative;
 	}
 	.navbar {
 		display: none;
