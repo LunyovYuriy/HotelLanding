@@ -1,3 +1,3 @@
 # HotelLanding
 
-<a href="https://shikigeru.github.io/HotelLanding/">DEMO</a>
+<a href="https://lunyovyuriy.github.io/HotelLanding/">DEMO</a>
